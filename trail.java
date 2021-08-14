@@ -5,25 +5,21 @@ public class trail
 {
 	public static void main(String[] args)
 	{
-		int i,row=4;
-		/*System.out.println("enter the value of rows");
-
-		Scanner sc=new Scanner(System.in);
-		int row=sc.nextInt();
-		//System.out.println(row);
-		*/
-		for(i=1;i<=row;i++);
+	for(int i=1;i<=5;i++)
+	{
+		if(i==3)
 		{
-			System.out.println("* ");
-			
+			continue;  //skip 7		
 		}
-		//sc.close();
-		
-		
-		
-		
+		System.out.println("the value is " + i);
+	}
+	for(int j=6;j<=10;j++)
+	{
+		if(j>8)
+		{
+			break;
+		}
+		System.out.println("other values are " + j);
+	}		
 	}
 }
-
-
-
